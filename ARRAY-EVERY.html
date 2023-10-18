@@ -1,0 +1,13 @@
+<script>
+    //var ages =[10,2,23,15,40,18,36,25]
+    var ages =[93,65,40,25,36,25]
+
+    document.write(ages + "<br><br>");
+
+    var b =ages.every(checkAdult);
+    document.write(b + "<br><br>");
+
+    function checkAdult(age){
+        return age>=20;
+    }
+</script>

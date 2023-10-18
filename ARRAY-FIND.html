@@ -1,0 +1,14 @@
+<script>
+    var ages =[1,2,4,5,8,7,8,9,11,4,5,4]
+    document.write(ages + "<br><br>");
+
+    var b =ages.find(checkAdult);
+    var b =ages.findIndex(checkAdult);
+
+    
+    document.write(b + "<br><br>");
+
+    function checkAdult(age){
+        return age>=6;
+    }
+</script>

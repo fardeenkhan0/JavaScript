@@ -1,0 +1,11 @@
+<script>
+    var ages =[1,1,2,,6,7,25];//koi bhi ek value true hona.....//
+    document.write(ages + "<br><br>");
+
+    var b =ages.some(checkAdult);
+    document.write(b + "<br><br>");
+
+    function checkAdult(age){
+        return age>=20;
+    }
+</script>
